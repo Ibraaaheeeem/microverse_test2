@@ -1,0 +1,15 @@
+#nav-bar ul{
+    display: flex;
+   
+}
+ul li{
+    max-width: 80px;
+}
+@media only screen and (max-width: 600px) {
+    #nav-bar ul{
+        display: block;
+    }
+    ul li{
+        width:100%
+    }
+}
